@@ -82,3 +82,16 @@ WEB: https://palettes.shecodes.io/palettes/691#palette
     color: #155263;
 }
 
+
+/* ====================
+        PIE DE PÁG
+   ==================== */
+   footer{
+    position: absolute;
+    bottom: 0;
+    transform: translate(0%, -50%);
+    width: 100%;
+    text-align: center;
+    color: #155263;
+    font-weight: 600;
+   }
