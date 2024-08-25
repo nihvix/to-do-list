@@ -17,6 +17,17 @@ WEB: https://palettes.shecodes.io/palettes/691#palette
 */
 
 /* ====================
+        HEADER
+   ==================== */
+header {
+    font-family: 'Matemasie', 'Poppins', sans-serif;
+    font-size: 40px;
+    color:#155263;
+    text-align: center;
+    margin: 20px;
+}
+
+/* ====================
         MAIN
    ==================== */
 #mainContainer {
@@ -78,7 +89,7 @@ WEB: https://palettes.shecodes.io/palettes/691#palette
     text-align: left;
 }
 
-.tasks i{
+.tasks i {
     color: #155263;
 }
 
@@ -86,7 +97,7 @@ WEB: https://palettes.shecodes.io/palettes/691#palette
 /* ====================
         PIE DE PÁG
    ==================== */
-   footer{
+footer {
     position: absolute;
     bottom: 0;
     transform: translate(0%, -50%);
@@ -94,4 +105,4 @@ WEB: https://palettes.shecodes.io/palettes/691#palette
     text-align: center;
     color: #155263;
     font-weight: 600;
-   }
+}
