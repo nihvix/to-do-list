@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7b7111c316.js" crossorigin="anonymous"></script>
     <title>TO DO LIST</title>
 </head>
@@ -15,11 +18,25 @@
     <main id="mainContainer">
         <!--BLOQUE AÑADIR TAREAS-->
         <div id="addTask">
-            <input id="newTask" type="text">
+            <input id="newTask" type="text" placeholder="Write your task...">
             <button id="addButton"><i class="fa-solid fa-plus"></i></button>
         </div>
         <!--BLOQUE LISTA TAREAS-->
+        <div id="addedTasks">
+            <div class="tasks">
+                <i class="fa-regular fa-circle"></i>
+                <p>Hacer la compra</p>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+            <div class="tasks">
+                <i class="fa-regular fa-circle"></i>
+                <p>Programar</p>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
     </main>
+    <footer>To-Do-List by Inma Q</footer>
 </body>
+<script defer src="app.js"></script>
 
 </html>
