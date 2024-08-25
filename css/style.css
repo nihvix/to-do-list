@@ -1,22 +1,51 @@
 /* ====================
         GENERAL
    ==================== */
-body{
+body {
     box-sizing: border-box;
-    background-color: lightgrey;
+    background-color: #c7b198;
+    font-family: 'Poppins', sans-serif;
 }
+
+/*
+COLORS TO USE:
+#f0ece2
+#dfd3c3
+#c7b198
+#155263
+WEB: https://palettes.shecodes.io/palettes/691#palette
+*/
 
 /* ====================
         MAIN
    ==================== */
-
+#mainContainer {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    /*Lo trasladamos al centro*/
+}
 
 
 /* ====================
         AÑADIR TAREA
    ==================== */
+#newTask {
+    height: 25px;
+    width: 300px;
+    border: 2px solid #155263;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 5px 5px 10px;
+    background-color: whitesmoke;
+}
 
-
-/* ====================
-        LISTA TAREAS
-   ==================== */
+#addButton {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    color: #f0ece2;
+    border: 1px solid #155263;
+    background-color: #155263;
+}
