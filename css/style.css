@@ -49,3 +49,36 @@ WEB: https://palettes.shecodes.io/palettes/691#palette
     border: 1px solid #155263;
     background-color: #155263;
 }
+
+/* ====================
+        LISTA TAREAS
+   ==================== */
+#addedTasks {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.tasks {
+    height: 25px;
+    width: 340;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #dfd3c3;
+    border-radius: 10px;
+    background-color: #f0ece2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tasks p {
+    display: inline;
+    text-align: left;
+}
+
+.tasks i{
+    color: #155263;
+}
+
